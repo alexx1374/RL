@@ -22,6 +22,7 @@ git clone https://github.com/alexx1374/RL.git
 ```shell
 python -m venv venv
 ```
+Virtuelle Umgebung Starten:
 ```shell
 venv\Scripts\activate
 ```
