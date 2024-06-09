@@ -16,15 +16,23 @@ Framework: ALE/Pong-v5
 ### Setup
 #### Repository klonen:
 ```shell
-git clone https://github.com/
+git clone https://github.com/alexx1374/RL.git
 ```
 #### Virtuelle Umgebung erstellen (optional): 
+```shell
 python -m venv venv
+```
+```shell
 venv\Scripts\activate
+```
 #### Die erforderlichen Pakete installieren:
+```shell
 pip install -r requirements.txt
+```
 #### Agenten trainieren
+
 python train.py ???????????
+
 Dadurch wird der Trainingsprozess gestartet und das trainierte Modell im Verzeichnis gespeichert.
 
 Den Agenten auswerten
@@ -33,7 +41,7 @@ python evaluate.py --model_path models/pong_dqn.h5
 
 
 ### Ergebnisse
-Während des Trainings gibt das Skript bei jeder Episode den aktuellen Punktestand und Verlust aus. Trainingsergebnisse, einschließlich Verlustkurven und Punkteverlauf, werden im Verzeichnis results/ gespeichert und können mit Matplotlib visualisiert werden.
+Während des Trainings gibt das Skript bei jeder Episode den aktuellen Punktestand und Verlust aus. Trainingsergebnisse, einschließlich Verlustkurven und Punkteverlauf, werden gespeichert und mit Matplotlib visualisiert werden.
 
 ### Referenzen
 Deep Q-Learning mit TensorFlow und Keras
