@@ -44,7 +44,10 @@ python evaluate.py --model_path models/pong_dqn.h5
 
 
 ### Ergebnisse
-Während des Trainings gibt das Skript bei jeder Episode den aktuellen Punktestand und Verlust aus. Trainingsergebnisse, einschließlich Verlustkurven und Punkteverlauf, werden gespeichert und mit Matplotlib visualisiert werden.
+Während des Trainings wird alle 25 Episoden ein Plot ausgegeben, welcher den Punktestand die Episodenlänge, den Verlust und den Epsilonwert ausgibt. Diese Plots werden gespeichert und der Trainingsverlauf kann dadurch verfolgt werden.
+Nach mehreren Tagen Training und 1000 trainierten Episoden ist folgendes Ergebnis rausgekommen.
+
+![pong_Plot_episode_1000](https://github.com/alexx1374/RL/assets/104265677/f49dfe04-0404-4785-ab6e-9769aa6391b4)
 
 ### Referenzen
 Deep Q-Learning mit TensorFlow und Keras
