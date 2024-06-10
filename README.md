@@ -9,7 +9,7 @@ Dieses Projekt implementiert einen Pong-Agenten mithilfe von Reinforcement Learn
 
 
 ### Funktionen
-Deep Q-Network (DQN)-Implementierung: Verwendet ein neuronales Netzwerk, um die Q-Wert-Funktion anzunähern.
+Deep Q-Network (DQN)-Implementierung: Verwendet ein neuronales Netzwerk, um die Q-Wert-Funktion anzunähern. /n
 Experience Replay: Verwendet einen Wiedergabepuffer, um vergangene Erfahrungen für das Training zu speichern und wiederzuverwenden.
 Zielnetzwerk: Implementiert ein separates Zielnetzwerk, um das Training zu stabilisieren.
 OpenAI Gym-Integration: Verwendet die OpenAI Gym-Umgebung für das Pong-Spiel.
