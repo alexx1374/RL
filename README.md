@@ -6,13 +6,15 @@ Dieses Projekt implementiert einen Pong-Agenten mithilfe von Reinforcement Learn
 
 ![PongEnvironment](https://github.com/alexx1374/RL/assets/104265677/cd0cdf2b-7aa1-4fc3-b0f3-3b3515cc803c)
 
-
-
 ### Funktionen
-Deep Q-Network (DQN)-Implementierung: Verwendet ein neuronales Netzwerk, um die Q-Wert-Funktion anzunähern. /n
+Deep Q-Network (DQN)-Implementierung: Verwendet ein neuronales Netzwerk, um die Q-Wert-Funktion anzunähern.
+
 Experience Replay: Verwendet einen Wiedergabepuffer, um vergangene Erfahrungen für das Training zu speichern und wiederzuverwenden.
+
 Zielnetzwerk: Implementiert ein separates Zielnetzwerk, um das Training zu stabilisieren.
+
 OpenAI Gym-Integration: Verwendet die OpenAI Gym-Umgebung für das Pong-Spiel.
+
 Framework: ALE/Pong-v5
 
 ### Setup
@@ -32,16 +34,6 @@ venv\Scripts\activate
 ```shell
 pip install -r requirements.txt
 ```
-#### Agenten trainieren
-
-python train.py ???????????
-
-Dadurch wird der Trainingsprozess gestartet und das trainierte Modell im Verzeichnis gespeichert.
-
-Den Agenten auswerten
-Um die Leistung eines trainierten Agenten auszuwerten, führen Sie Folgendes aus:
-python evaluate.py --model_path models/pong_dqn.h5
-
 
 ### Ergebnisse
 Während des Trainings wird alle 25 Episoden ein Plot ausgegeben, welcher den Punktestand die Episodenlänge, den Verlust und den Epsilonwert ausgibt. Diese Plots werden gespeichert und der Trainingsverlauf kann dadurch verfolgt werden.
@@ -52,6 +44,3 @@ Nach mehreren Tagen Training und 1000 trainierten Episoden ist folgendes Ergebni
 ### Referenzen
 Deep Q-Learning mit TensorFlow und Keras
 OpenAI Gym-Dokumentation
-
-### Lizenz
-Dieses Projekt ist unter der MIT-Lizenz lizenziert – Einzelheiten finden Sie in der Datei LICENSE.
