@@ -48,8 +48,10 @@ Der Code wurde 1000 Episoden lang trainiert. Dabei wurden folgende Hyperparamete
 - batch_size = 64
 - num_episodes = 1000
 
+
+
 Um das Training zu verfolgen wurden folgende Maßnahmen durchgeführt:
-Beim Training des Codes wird für jede Episode ein Video aufgenommen und (theoretisch) im "train_videos" Ordner gespeichert. (Den Upload der Videos auf GitHub habe ich nicht durchgeführt, sondern nur Beispielvideos in den Ordner "best_videos" geladen.)
+Beim Training des Codes wird für jede Episode ein Video aufgenommen und (theoretisch) im "train_videos" Ordner gespeichert. (Den Upload der Videos auf GitHub habe ich nicht durchgeführt, sondern nur Beispielvideos in den Ordner [best_videos](https://github.com/alexx1374/RL/tree/dev/data/best_videos) geladen.)
 Des Weiteren wird immer das Model mit dem besten Reward gespeichert. Um gezielt Evaluierungen durchzuführen wurde alle 100 Episoden ein weiteres Model gespeichert. Die Models können im Ordner "models" abgerufen werden. Um das Training visuell in Form von Plots zu verfolgen, wird alle 25 Episoden ein Plot mit dem Episoden Reward, der Episoden Länge, dem Loss und mit den Epsilon Values ausgegeben und im Ordner "plots gespeichert".
 
 ### Ergebnisse
