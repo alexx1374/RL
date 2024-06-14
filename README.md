@@ -1,5 +1,12 @@
-# RL
+# Reinforcement Learning
 Reinforcement Learning Project
+
+Gliederung:
+
+Whats in it:
+
+TLDR
+
 Pong Agent
 
 <img src="https://github.com/alexx1374/RL/assets/104265677/ed76aa46-4689-4104-9471-7f2cfcb196bf" width="500"/> 
