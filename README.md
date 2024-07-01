@@ -63,7 +63,7 @@ Der Code wurde 1000 Episoden lang trainiert. Dabei wurden folgende Hyperparamete
 
 Um das Training zu verfolgen wurden folgende Maßnahmen durchgeführt:
 Beim Training des Codes wird für jede Episode ein Video aufgenommen und (theoretisch) im ["train_videos"](https://github.com/alexx1374/RL/tree/dev/data/train_videos) Ordner gespeichert. (Den Upload der Videos auf GitHub habe ich nicht durchgeführt, sondern nur Beispielvideos in den Ordner ["best_videos"](https://github.com/alexx1374/RL/tree/dev/data/best_videos) geladen.)
-Des Weiteren wird immer das Model mit dem besten Reward gespeichert. Um gezielt Evaluierungen durchzuführen wurde alle 100 Episoden ein weiteres Model gespeichert. Die Models können im Ordner ["models"](https://github.com/alexx1374/RL/tree/dev/models) abgerufen werden.
+Des Weiteren wird immer das Model mit dem besten Reward gespeichert. Um gezielt Evaluierungen durchzuführen wurde alle 100 Episoden ein weiteres Model gespeichert. Die Models können im Ordner ["models"](https://github.com/alexx1374/RL/tree/dev/models) abgerufen werden. Im Laufe des Trainingsprozesses wurden verschiedene Hyperparameter getestet und außerdem zusätzliches Frameskipping ausprobiert. Im finalen Code wurden die gezeigten Parameter (siehe oben) ausgewählt und das zusätzliche Frameskitpping wurde nicht verwendet, da im ALE/Pong-v5 Environment bereits ein Frameskipping von 4 voreingestellt ist.
 
 ## Ergebnisse
 Während des Trainings wird alle 25 Episoden ein Plot ausgegeben, welcher den Punktestand die Episodenlänge, den Verlust und den Epsilonwert ausgibt. Diese Plots werden im Ordner ["plots"](https://github.com/alexx1374/RL/tree/dev/data/plots) gespeichert und der Trainingsverlauf kann dadurch verfolgt werden.
