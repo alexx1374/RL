@@ -3,11 +3,11 @@ Reinforcement Learning Project
 
 ## Gliederung:
 -  [Übersicht](##Übersicht)
--  Setup
--  Training
--  Ergebnisse
--  Evaluierung
--  Referenzen
+-  [Setup](##Setup)
+-  [Training](##Training)
+-  [Ergebnisse](##Ergebnisse)
+-  [Evaluierung](##Evaluierung)
+-  [Referenzen](##Referenzen)
 
 ## Whats in it:
 
