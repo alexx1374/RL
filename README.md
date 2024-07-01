@@ -2,12 +2,12 @@
 Reinforcement Learning Project
 
 ## Gliederung:
--  [Übersicht](##Übersicht)
--  [Setup](##Setup)
--  [Training](##Training)
--  [Ergebnisse](##Ergebnisse)
--  [Evaluierung](##Evaluierung)
--  [Referenzen](##Referenzen)
+-  ([##Übersicht](https://github.com/alexx1374/RL/blob/main/README.md#%C3%BCbersicht))
+-  [[Setup](##Setup)](https://github.com/alexx1374/RL?tab=readme-ov-file#setup)
+-  [[Training](##Training)](https://github.com/alexx1374/RL?tab=readme-ov-file#training)
+-  [[Ergebnisse](##Ergebnisse)](https://github.com/alexx1374/RL?tab=readme-ov-file#ergebnisse)
+-  [[Evaluierung](##Evaluierung)](https://github.com/alexx1374/RL?tab=readme-ov-file#evaluierung)
+-  [[Referenzen](##Referenzen)](https://github.com/alexx1374/RL?tab=readme-ov-file#referenzen)
 
 ## Whats in it:
 
