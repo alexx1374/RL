@@ -18,10 +18,21 @@ Pong Agent
 <img src="https://github.com/alexx1374/RL/assets/104265677/ed76aa46-4689-4104-9471-7f2cfcb196bf" width="400"/> 
 <img src="https://github.com/alexx1374/RL/assets/104265677/eb9e4a27-55a8-49c4-8813-69605ef521e6" width="400"/>
 
+
+
+
+
 Unterschied zwischen der ersten und nach über 700 Epochen. (Braun: Spieler 1, Grün: RL-Agent)
 
 ## Übersicht
 Dieses Projekt implementiert einen Pong-Agenten mithilfe von Reinforcement Learning (RL). Der Agent wird mithilfe von Deep Q-Learning (DQN) trainiert, das klassische Atari-Spiel Pong zu spielen. Das Hauptziel dieses Projekts besteht darin, die Anwendung von RL-Techniken zu demonstrieren, um einen Agenten zu trainieren, in einer Spielumgebung eine hohe Leistung zu erzielen.
+
+https://github.com/alexx1374/RL/assets/104265677/196390ba-ec9d-4265-af9a-dee67740c447
+
+https://github.com/alexx1374/RL/assets/104265677/e4a751da-f892-48eb-90a7-003083464feb
+
+Trainingserfolg im Projekt (Unterschied zwischen Episode 1 und 964)
+
 
 ### Funktionen
 Deep Q-Network (DQN)-Implementierung: Verwendet ein neuronales Netzwerk, um die Q-Wert-Funktion anzunähern.
